@@ -1,9 +1,13 @@
 import React from 'react'
 
-const CustomFilter = () => {
+interface CustomFilterProps {
+   title: string;
+}
+
+const CustomFilter: React.FC<CustomFilterProps> = ({ title }) => {
    return (
       <div>
-
+         {/* You can use the title prop here if needed */}
       </div>
    )
 }
