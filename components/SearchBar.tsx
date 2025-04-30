@@ -5,7 +5,7 @@ import SearchManufacturer from './SearchManufacturer'
 import { useState } from 'react'
 
 const SearchBar = () => {
-   const { manufacturer, setManufacturer } = useState('')
+   const [manufacturer, setManufacturer] = useState('')
    const handleSearch = () => { }
 
 
